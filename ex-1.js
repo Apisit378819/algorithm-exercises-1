@@ -1,5 +1,8 @@
 function addStrings(num1, num2) {
-  //Start coding here
+  let result = "" //ใส้เพื่อที่จะ returm เป็น siting
+  let carry = 0
+
+
 }
 
 let result1 = addStrings("11", "123");

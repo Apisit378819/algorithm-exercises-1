@@ -1,5 +1,6 @@
 function findOdd(nums) {
   // Start coding here
+  return nums.reduce((acc , num) => acc ^ num , 0)
 }
 
 let result1 = findOdd([0]);

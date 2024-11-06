@@ -1,5 +1,6 @@
 function singleNumber(nums) {
   // Start coding here
+  return nums.reduce((acc , num) => acc ^ num , 0)
 }
 
 let result1 = singleNumber([2, 2, 1]);
